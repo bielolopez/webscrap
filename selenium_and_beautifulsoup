@@ -7,8 +7,8 @@ from pymongo import MongoClient
 
 
 client = MongoClient('localhost')
-db = client['devoto']
-col = db['devoto_alimentos']
+db = client['DEV']
+col = db['alimentos']
 
 from selenium.webdriver.support.ui import WebDriverWait
 
